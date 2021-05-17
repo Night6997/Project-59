@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(#DC143C 11%, #660000 89%);
+    color: black;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-shadow: 2px 2px crimson;
+    font-size: 25px;
+    font-family: 'Texturina', serif;
+}
+
+#para {
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+
+#img1 {
+    border-radius: 10%;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 30px;
+    right: 10;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    list-style: none;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: darkblue;
+    font-family: 'Overpass', sans-serif;
+    font-size: 19px;
+}
+
+.links:hover {
+    background-color: aqua;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
