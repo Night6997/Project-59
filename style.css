@@ -23,28 +23,27 @@ h1 {
 }
 
 .menu {
-    list-style: none;
+    margin-top: 0px;
     position: fixed;
-    top: 30px;
-    right: 10;
-    z-index: 10;
-    cursor: pointer;
+    background: black;
+    color: aqua;
+    width: 100%;
+    top: 0px;
+ z-index: 10;
 }
 
 .links {
-    list-style: none;
-    float: left;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    color:darkmagenta;
+    display:inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    color:navy;
     font-family: 'Overpass', sans-serif;
     font-size: 19px;
 }
 
 .links:hover {
-    background-color: aqua;
+    font-size: 30px;
+    text-decoration: underline;
 }
 
 html {
@@ -53,4 +52,17 @@ html {
 
 a {
     text-decoration: none;
+}
+#contact{
+background:firebrick;
+}
+#contact iframe{
+width:98%;
+}
+.contact1 h3{
+display:inline;
+}
+contact1 a{
+color:blueviolet;
+text-shadow:1px 1px blue;
 }
